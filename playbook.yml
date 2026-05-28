@@ -1,0 +1,78 @@
+- name: Install Jenkins on Master (Amazon Linux)
+  hosts: devops-master
+  become: yes
+
+  tasks:
+
+    - name: Update system packages
+      yum:
+        name: "*"
+        state: latest
+
+    - name: Install Java 21 (Jenkins supported)
+      yum:
+        name: java-21-amazon-corretto
+        state: present
+
+    - name: Add Jenkins repo
+      get_url:
+        url: https://pkg.jenkins.io/redhat-stable/jenkins.repo
+        dest: /etc/yum.repos.d/jenkins.repo
+
+    - name: Import Jenkins key
+      rpm_key:
+        state: present
+        key: https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+    - name: Install Jenkins
+      yum:
+        name: jenkins
+        state: present
+
+    - name: Reload systemd
+      systemd:
+        daemon_reload: yes
+
+    - name: Enable Jenkins service
+      systemd:
+        name: jenkins
+        enabled: yes
+
+    - name: Start Jenkins service
+      systemd:
+        name: jenkins
+        state: started
+
+
+- name: Setup Jenkins Agent (Docker + Java)
+  hosts: build-agent
+  become: yes
+
+  tasks:
+
+    - name: Update system packages
+      yum:
+        name: "*"
+        state: latest
+
+    - name: Install Java 21
+      yum:
+        name: java-21-amazon-corretto
+        state: present
+
+    - name: Install Docker
+      yum:
+        name: docker
+        state: present
+
+    - name: Start Docker service
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Add ec2-user to docker group
+      user:
+        name: ec2-user
+        groups: docker
+        append: yes
