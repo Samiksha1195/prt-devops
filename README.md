@@ -26,17 +26,25 @@ Through this project, I gained hands-on experience with:
 
 Screenshots:-
 Jenkins Build Success Screenshot
+
+
 <img width="602" height="338" alt="image" src="https://github.com/user-attachments/assets/63885c68-12f6-4863-b8dd-02273babfc0b" />
+
+
 Dockerhub screenshot
+
+
 <img width="1918" height="824" alt="image" src="https://github.com/user-attachments/assets/90d8fea4-298f-402a-a839-e38d82572851" />
 
 <img width="602" height="338" alt="image" src="https://github.com/user-attachments/assets/80c8a286-6309-4861-af67-b985b245eec9" />
 
-infrastructure privisioning using terraform
+infrastructure privisioning using terraform:
 
 <img width="602" height="338" alt="image" src="https://github.com/user-attachments/assets/6f2f4d59-9349-4026-be53-30f0222f01d4" />
 
 Deployment output:
+
+
 <img width="602" height="338" alt="image" src="https://github.com/user-attachments/assets/dd6ada10-ea99-4136-8d70-9a59d6112b52" />
 
 
