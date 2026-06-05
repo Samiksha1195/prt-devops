@@ -14,11 +14,11 @@ The project follows DevOps best practices such as Infrastructure as Code (IaC), 
 
 Through this project, I gained hands-on experience with:
 
-AWS Infrastructure Management
-Terraform for Infrastructure as Code
-Ansible Automation
-Jenkins CI/CD Pipelines
-Docker Containerization
-Kubernetes Deployments and Services
-Git Version Control
-End-to-End DevOps Automation
+-  AWS Infrastructure Management
+-  Terraform for Infrastructure as Code
+-  Ansible Automation
+-  Jenkins CI/CD Pipelines
+-  Docker Containerization
+-  Kubernetes Deployments and Services
+-  Git Version Control
+-  End-to-End DevOps Automation
