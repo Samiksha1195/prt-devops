@@ -26,7 +26,7 @@ Through this project, I gained hands-on experience with:
 
 Screenshots:-
 Jenkins Build Success Screenshot
-
+<img width="1920" height="1080" alt="Screenshot 2026-05-28 090017" src="https://github.com/user-attachments/assets/2a65ade3-59c7-4b13-8ec7-e0902d85da16" />
 
 <img width="602" height="338" alt="image" src="https://github.com/user-attachments/assets/63885c68-12f6-4863-b8dd-02273babfc0b" />
 
@@ -46,6 +46,13 @@ Deployment output:
 
 
 <img width="602" height="338" alt="image" src="https://github.com/user-attachments/assets/dd6ada10-ea99-4136-8d70-9a59d6112b52" />
+
+
+
+
+
+<img width="1920" height="1080" alt="Screenshot 2026-05-28 092746" src="https://github.com/user-attachments/assets/9ac64e21-aa5f-43eb-a7e4-4fcfb0c121d3" />
+
 
 
 
