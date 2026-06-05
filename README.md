@@ -1,4 +1,5 @@
 AWS DevOps CI/CD Automation Project
+
 📌 Project Overview
 
 This project demonstrates a complete DevOps CI/CD pipeline implementation using Git, Ansible, Jenkins, Docker, Terraform, Kubernetes, and AWS. The goal is to automate infrastructure provisioning, configuration management, application build, containerization, and deployment on a Kubernetes cluster.
